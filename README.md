@@ -1,4 +1,3 @@
-# blog
 It is blog. Here used language PYTHON and framework DJANGO.
 ========================
 USE   
