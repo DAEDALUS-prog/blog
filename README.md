@@ -34,5 +34,5 @@ USE
               
 ---
 
-> And in the  web-browser  go to the *http://127.0.0.1/* or *localhost*.
+> And in the  web-browser  go to the *http://127.0.0.1/blog/*.
 ---
