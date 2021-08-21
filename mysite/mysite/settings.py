@@ -11,7 +11,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 from pathlib import Path
-from secret import *
+from dotenv import load_dotenv, dotenv_values
+
+config = load_dotenv('../.env')
+print(config)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -78,9 +81,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': db_name,
-        'USER': db_user,
-        'PASSWORD': db_password,
+        'NAME': 'mysite',
+        'USER': 'postgres',
+        'PASSWORD': 'root',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
