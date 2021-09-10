@@ -1,7 +1,7 @@
 It is blog. Here used language PYTHON and framework DJANGO.
 ========================
 USE   
-(YOU MUST HAVE A PYTHON BEFORE STARTING v==3.9 AND DJANGO v==3.2.5)
+(YOU MUST HAVE A PYTHON BEFORE STARTING v==3.9, DJANGO v==3.2.5 and POSTGRESQL DATABASE)
 
 `pip install Django==3.2.5`
 
@@ -36,3 +36,5 @@ USE
 
 > And in the  web-browser  go to the *http://127.0.0.1/blog/*.
 ---
+![3](https://user-images.githubusercontent.com/69119928/132916597-83b2ced0-01b1-4fbc-9a7f-f1cb3a52eb4f.jpg)
+
